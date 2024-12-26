@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int a, b, c, count, score;
+    int a, b, c, count;
     cin >> a >> b >> c;
     if (a == b&&a == c)
         cout << 10000 + a*1000;
